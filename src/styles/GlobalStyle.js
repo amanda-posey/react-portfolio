@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 :root{
-    --primary-color: #007bff;
+    ${'' /* --primary-color: #007bff;
     --secondary-color: #6c757d;
     --background-dark-color: #10121A;
     --border-color: #2e344e;
@@ -11,7 +11,17 @@ const GlobalStyle = createGlobalStyle`
     --font-light-color: #a4acc4;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
-    --sidebar-dark-color: #191d2b;
+    --sidebar-dark-color: #191d2b; */}
+    --primary-color: #96b1ac;
+    --secondary-color: #009688;
+    --background-dark-color: #344b47;
+    --border-color: #bdbdbd;
+    --background-light-color: #ffe0b2;
+    --white-color: fff;
+    --font-light-color: #bdbdbd;
+    --font-dark-color: #212121;
+    --sidebar-dark-color: #f57c00;
+
 }
     *{
         padding: 0;
@@ -23,10 +33,10 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Nunito', sans-serif;
     }
     
-    body{
+    ${'' /* body{
         background-color: var(--background-dark-color);
         color: var(--font-light-color)
-    }
+    } */}
 
     a{
         font-family: inherit;
