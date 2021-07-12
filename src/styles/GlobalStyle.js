@@ -15,13 +15,13 @@ const GlobalStyle = createGlobalStyle`
     --primary-color: #96b1ac;
     --secondary-color: #009688;
     --background-dark-color: #10121A;
-    ${'' /* --background-dark-color: #344b47; */}
-    --border-color: #bdbdbd;
+    --trim-color: #B9BDC6;
+    --accent-color: #1B857F;
     --background-light-color: #ffe0b2;
     --white-color: fff;
     --font-light-color: #bdbdbd;
-    --font-dark-color: #212121;
-    --sidebar-dark-color: #191d2b;
+    --font-dark-color: #1B283D;
+    --sidebar-dark-color: #b7891c;
     ${'' /* --sidebar-dark-color: #f57c00; */}
 
 }
@@ -37,7 +37,7 @@ const GlobalStyle = createGlobalStyle`
     
     body{
         background-color: var(--background-dark-color);
-        color: var(--font-light-color)
+        color: var(--font-dark-color)
     }
 
     a{

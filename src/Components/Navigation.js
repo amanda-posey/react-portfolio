@@ -40,17 +40,17 @@ const NavigationStyled = styled.nav`
     align-items: center;
     height: 100%;
     width: 100%;
-    border-right: 1px solid var(--border-color);
+    border-right: 1px solid var(--trim-color);
 
     .avatar {
         width: 100%;
-        border-bottom: 1px solid var(--border-color);
+        border-bottom: 1px solid var(--trim-color);
         text-align: center;
         padding: 1rem 0;
         img{
             width: 70%;
             border-radius: 50%;
-            border: 8px solid var(--border-color)
+            border: 8px solid var(--trim-color)
         }
     }
 
@@ -79,7 +79,7 @@ const NavigationStyled = styled.nav`
                     left: 0;
                     width: 0;
                     height: 50%;
-                    background-color: var(--primary-color);
+                    background-color: var(--trim-color);
                     transition: All 0.4s cubic-bezier(1,-0.2,.25,.95);
                     z-index: 3;
                     opacity: 0.21;
@@ -93,7 +93,7 @@ const NavigationStyled = styled.nav`
     }
 
     .footer {
-        border-top: 1px solid var(--border-color);
+        border-top: 1px solid var(--trim-color);
         width: 100%;
         p{
             padding: 1.5rem 0;

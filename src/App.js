@@ -61,7 +61,7 @@ const MainContentStyled = styled.main`
     .line-1, .line-2, .line-3, .line-4{
       width: 1px;
       min-height: 100vh;
-      background-color: var(--border-color);
+      background-color: var(--trim-color);
     }
   }
   
