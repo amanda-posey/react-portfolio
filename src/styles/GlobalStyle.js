@@ -52,7 +52,7 @@ const GlobalStyle = createGlobalStyle`
         color: var(--white-color);
         span{
             font-size: 3rem;
-            color: #F9F871
+            color: var(--accent-color);
         }
     }
 `;
