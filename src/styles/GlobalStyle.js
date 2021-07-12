@@ -22,6 +22,7 @@ const GlobalStyle = createGlobalStyle`
     --font-light-color: #bdbdbd;
     --font-dark-color: #1B283D;
     --sidebar-dark-color: #b7891c;
+    --card-color: #404756;
     ${'' /* --sidebar-dark-color: #f57c00; */}
 
 }
