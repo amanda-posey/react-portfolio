@@ -4,23 +4,25 @@ const GlobalStyle = createGlobalStyle`
 :root{
     ${'' /* --primary-color: #007bff;
     --secondary-color: #6c757d;
-    --background-dark-color: #10121A;
+    
     --border-color: #2e344e;
     --background-light-color: #F1F1F1;
     --white-color: #fff;
     --font-light-color: #a4acc4;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
-    --sidebar-dark-color: #191d2b; */}
+     */}
     --primary-color: #96b1ac;
     --secondary-color: #009688;
-    --background-dark-color: #344b47;
+    --background-dark-color: #10121A;
+    ${'' /* --background-dark-color: #344b47; */}
     --border-color: #bdbdbd;
     --background-light-color: #ffe0b2;
     --white-color: fff;
     --font-light-color: #bdbdbd;
     --font-dark-color: #212121;
-    --sidebar-dark-color: #f57c00;
+    --sidebar-dark-color: #191d2b;
+    ${'' /* --sidebar-dark-color: #f57c00; */}
 
 }
     *{
