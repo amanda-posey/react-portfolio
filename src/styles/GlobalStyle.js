@@ -33,15 +33,24 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Nunito', sans-serif;
     }
     
-    ${'' /* body{
+    body{
         background-color: var(--background-dark-color);
         color: var(--font-light-color)
-    } */}
+    }
 
     a{
         font-family: inherit;
         color: inherit;
-        font-size: inherit;
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: 3rem;
+        color: var(--white-color);
+        span{
+            font-size: 3rem;
+            color: #F9F871
+        }
     }
 `;
 

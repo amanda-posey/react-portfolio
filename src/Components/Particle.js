@@ -1,7 +1,7 @@
 import Particles from 'react-particles-js';
 import React from 'react';
 
-function Particles() {
+function CustomParticles() {
     return (
         <>
             <Particles width='100%' height='100vh'
@@ -65,4 +65,4 @@ function Particles() {
     )
 }
 
-export default Particles;
+export default CustomParticles;
