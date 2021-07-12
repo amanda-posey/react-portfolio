@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
     --trim-color: #B9BDC6;
     --accent-color: #1B857F;
     --background-light-color: #ffe0b2;
-    --white-color: fff;
+    --white-color: #f2f3f4;
     --font-light-color: #bdbdbd;
     --font-dark-color: #1B283D;
     --sidebar-dark-color: #b7891c;
@@ -37,7 +37,7 @@ const GlobalStyle = createGlobalStyle`
     
     body{
         background-color: var(--background-dark-color);
-        color: var(--font-dark-color)
+        color: var(--font-light-color)
     }
 
     a{

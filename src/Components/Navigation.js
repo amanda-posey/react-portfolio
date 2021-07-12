@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
-import avatar from '../images/img4.jpg';
+import avatar from '../images/avatar.png';
 
 function Navigation() {
     return (
@@ -57,6 +57,7 @@ const NavigationStyled = styled.nav`
     .nav-items {
         width: 100%;
         text-align: center;
+        color: var(--font-dark-color);
         .active-class{
             background-color: var(--primary-color);
         }
