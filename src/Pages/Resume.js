@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Skills from '../Components/Skills';
 
 function Resume() {
     return (
         <div>
-            <h1>Resume</h1>
+            <Skills />
         </div>
     )
 }
